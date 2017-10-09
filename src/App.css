@@ -1,0 +1,110 @@
+body{
+  background: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#info{
+  margin: 60px 160px;
+  background: white;
+  -webkit-box-shadow: 10px 7px 20px 0px rgba(163,163,163,1);
+  -moz-box-shadow: 10px 7px 20px 0px rgba(163,163,163,1);
+  box-shadow: 10px 7px 20px 0px rgba(163,163,163,1);
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+}
+img{
+  width: 200px;
+}
+
+p{
+  text-align : justify;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h3{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h2{
+  font-family: 'Anton', sans-serif;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.secondNav{
+  padding: 5px;
+  background-color: white;
+  border: 0;
+  color: #818080;
+}
+
+.secondNav li:hover{
+  background-color: #818080;
+  color: #818080;
+}
+
+#navbarActual a:link, a:visited {
+  color: #818080;
+}
+
+#navbarActual a.current:link, a.current:visited {
+  color: white;
+  background-color: #818080;
+}
+
+#container-info{
+  padding: 5px 20px;
+}
+
+.courses img{
+  width: 70px;
+  margin-top: 25px;
+}
+
+.main-content {
+  padding: 1em 2em;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 769px) {
+  body {
+    padding-top: 3em;
+  }
+  .home a {
+    border-color: #3b80d1;
+  }
+  .media img,
+  .media > div,
+  .teacher {
+    float: left;
+  }
+  .media > div {
+    width: 85.1%;
+    margin-left: 1.5em;
+  } 
+  .teacher {
+    width: 48.73%;
+    margin-bottom: 1.5em;
+  }
+  .teacher + .teacher {
+    margin-left: 2.54%;
+  }
+  .teacher:nth-child(2n+3) {
+    clear: left;
+    margin-left: 0;
+  }
+}
